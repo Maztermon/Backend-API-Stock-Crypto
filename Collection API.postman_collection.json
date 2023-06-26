@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "3bde1517-5a74-4665-bf24-00e70424f102",
+		"name": "Collection API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26497528"
+	},
+	"item": [
+		{
+			"name": "Stock API",
+			"item": [
+				{
+					"name": "Request NKE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/stock/NKE",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"stock",
+								"NKE"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Request TSLA",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/stock/TSLA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"stock",
+								"TSLA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Request META",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/stock/META",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"stock",
+								"META"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Request NFLX",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/stock/NFLX\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"stock",
+								"NFLX\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Crypto API",
+			"item": [
+				{
+					"name": "Request BTC-USD",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/crypto/BTC-USD",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"crypto",
+								"BTC-USD"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Request ETH-USD",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/crypto/ETH-USD",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"crypto",
+								"ETH-USD"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Request BNB-USD",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/crypto/BNB-USD",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"crypto",
+								"BNB-USD"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Request USDC-USD",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/crypto/USDC-USD",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"crypto",
+								"USDC-USD"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
