@@ -12,7 +12,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// จุดปลายของ API เพื่อรับราคาหุ้นตามสัญลักษณ์ (ticker symbol)
+// Endpoint API เพื่อรับราคาหุ้นตามสัญลักษณ์ (ticker symbol)
 app.get('/stock/:symbol', async (req, res) => {
   const { symbol } = req.params;
 
@@ -43,7 +43,7 @@ app.get('/stock/:symbol', async (req, res) => {
   }
 });
 
-// จุดปลายของ API เพื่อรับราคาคริปโตเคอร์เรนซีตามสัญลักษณ์ (ticker symbol)
+// Endpoint API เพื่อรับราคาคริปโตเคอร์เรนซีตามสัญลักษณ์ (ticker symbol)
 app.get('/crypto/:symbol', async (req, res) => {
   const { symbol } = req.params;
 
